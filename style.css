@@ -1,0 +1,19 @@
+.menu {
+    font-family: Roboto;
+    font-size: 30px;
+    color: #000000;
+    font-style: italic;
+    position: relative;
+    width: 940px;
+    margin: 0;
+}
+
+.button-login{
+    font-family: Roboto;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-style: italic;
+    position: relative;
+    width: 940px;
+    margin: 0;
+}
