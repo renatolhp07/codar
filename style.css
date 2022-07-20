@@ -1,20 +1,69 @@
-.menu {
-    font-family: Roboto;
-    font-size: 30px;
-    color: #000000;
-    font-style: italic;
-    position: relative;
-    width: 940px;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+
+html {
+    font-family: 'Roboto';
 }
 
-.button-login{
-    font-family: Roboto;
-    font-size: 30px;
-    color: #FFFFFF;
-    font-style: italic;
+header {
     position: relative;
-    width: 940px;
-    height: 600px;
-    margin: 0;
+    padding: 20px 20px;
+}
+
+.codar {
+    color: #D6000D;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+span {
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav {
+    position: relative;
+    color: #000;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 0 910px;
+}
+
+nav a {
+    position: relative;
+    color: #000;
+    margin: 0 0 0 10px;
+}
+
+.login {
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 50px;
+    background-color: #D6000D;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .login:hover {
+    background: #D6000D;
+    border: solid #D6000D 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+img {
+    width: 350px;
+    height: 350px;
+    margin: 0 0 0 35%;
 }
