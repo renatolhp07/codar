@@ -39,9 +39,9 @@ nav a {
 
 .login {
     position: relative;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
     color: #FFFFFF;
     font-size: 15px;
     font-weight: bold;
@@ -56,14 +56,73 @@ nav a {
  .login:hover {
     background: #D6000D;
     border: solid #D6000D 1px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
     text-decoration: none;
  }
 
 img {
     width: 350px;
     height: 350px;
-    margin: 0 0 0 35%;
+    margin: 0 0 0 0;
 }
+
+.section-orcamento{
+    position: relative;
+    color: #000;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 200 0 0 0x;
+}
+
+.orcamento {
+    position: relative;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 50px;
+    background-color: #D6000D;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+.orcamento:hover {
+    background: #D6000D;
+    border: solid #D6000D 1px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+ }
+
+.ligar {
+    position: relative;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 50px;
+    background-color: #D6000D;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+.ligar:hover {
+    background: #D6000D;
+    border: solid #D6000D 1px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+ }
