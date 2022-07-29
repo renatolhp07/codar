@@ -14,6 +14,7 @@ header {
     font-style: italic;
     font-weight: bold;
     font-size: 30px;
+    display: inline;
 }
 
 span {
@@ -51,7 +52,7 @@ nav a {
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
+}
  
  .login:hover {
     background: #D6000D;
@@ -60,7 +61,7 @@ nav a {
     -moz-border-radius: 7px;
     border-radius: 7px;
     text-decoration: none;
- }
+}
 
 img {
     width: 350px;
@@ -91,7 +92,7 @@ img {
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
+}
  
 .orcamento:hover {
     background: #D6000D;
@@ -100,7 +101,7 @@ img {
     -moz-border-radius: 7px;
     border-radius: 7px;
     text-decoration: none;
- }
+}
 
 .ligar {
     position: relative;
@@ -116,7 +117,7 @@ img {
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
+}
  
 .ligar:hover {
     background: #D6000D;
@@ -125,4 +126,4 @@ img {
     -moz-border-radius: 7px;
     border-radius: 7px;
     text-decoration: none;
- }
+}
